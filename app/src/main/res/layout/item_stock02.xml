@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/borderline01"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/Stock_symbol"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/Stock_changesPercentage"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/Stock_price"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_marginLeft="40dp"
+        android:ellipsize="end"/>
+
+</LinearLayout>
